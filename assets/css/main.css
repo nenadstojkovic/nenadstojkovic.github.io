@@ -1598,6 +1598,38 @@ input, select, textarea {
 		
 	}
 
+	.image {
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	#main h2 {
+		pointer-events: none;
+		bottom: 6em;
+		font-size: 0.8em;
+		left: 2.1875em;
+		margin: 0;
+		position: absolute;
+		z-index: 1;
+	}
+	#main p {
+		color: #ffffff;
+		pointer-events: none;
+		bottom: 3em;
+		font-size: 0.8em;
+		left: 2.1875em;
+		margin: 0;
+		position: absolute;
+		z-index: 1;
+	}
+
 		#main .thumb {
 			-moz-transition: opacity 1.25s ease-in-out;
 			-webkit-transition: opacity 1.25s ease-in-out;
@@ -1610,6 +1642,7 @@ input, select, textarea {
 			position: relative;
 		}
 
+			/*
 			#main .thumb:after {
 				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
@@ -1624,7 +1657,9 @@ input, select, textarea {
 				position: absolute;
 				width: 100%;
 			}
+			*/
 
+			/*
 			#main .thumb > .image {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
@@ -1637,7 +1672,9 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
+			*/
 
+			/*
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
@@ -1647,10 +1684,13 @@ input, select, textarea {
 				position: absolute;
 				z-index: 1;
 			}
+			*/
 
+			/*
 			#main .thumb > p {
 				display: none;
 			}
+			*/
 
 		#main:after {
 			pointer-events: none;
