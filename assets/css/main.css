@@ -1103,7 +1103,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/close.svg");
+			background-image: url("./images/close.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 3em;
@@ -1212,7 +1212,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/close.svg");
+			background-image: url("./images/close.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 3em;
@@ -1231,7 +1231,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-image: url("images/arrow.svg");
+			background-image: url("./images/arrow.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: 5em;
@@ -1285,7 +1285,7 @@ input, select, textarea {
 			-webkit-animation: spinner 1s infinite linear !important;
 			-ms-animation: spinner 1s infinite linear !important;
 			animation: spinner 1s infinite linear !important;
-			background-image: url("images/spinner.svg");
+			background-image: url("./images/spinner.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -1412,7 +1412,7 @@ input, select, textarea {
 			-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			-ms-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
-			background-image: url("images/spinner.svg");
+			background-image: url("./images/spinner.svg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -1447,9 +1447,11 @@ input, select, textarea {
 
 /* Header */
 
+	/*
 	body {
-		/* padding: 0 0 4em 0; */
+		padding: 0 0 4em 0;
 	}
+	*/
 
 	#header {
 		-moz-transform: translateY(0);

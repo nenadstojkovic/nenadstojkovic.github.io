@@ -218,6 +218,7 @@
 				// This sets the background of the "image" <span> to the image pointed to by its child
 				// <img> (which is then hidden). Gives us way more flexibility.
 
+					/* TODO: Check this part of code
 					// Set background.
 						$image.css('background-image', 'url(' + $image_img.attr('src') + ')');
 
@@ -227,7 +228,7 @@
 
 					// Hide original img.
 						$image_img.hide();
-
+					*/
 			});
 
 		// Poptrox.
