@@ -151,9 +151,9 @@
 										<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
 									</ul>
 								</section>
-								<p class="copyright">
-									Copyright &copy; Nenad Stojkovic 2020.
-								</p>
+								<section>
+									<label class="copyright" id="year" />
+								</section>
 							</div>
 							<div>
 								<section>
@@ -178,6 +178,10 @@
 			</div>
 
 		<!-- Scripts -->
+			<script>
+				const year = new Date();
+				document.getElementById("year").innerHTML = `Copyright &copy; Nenad Stojkovic ${year.getFullYear()}.`;
+			</script>
 			<script src="./assets/js/jquery.min.js"></script>
 			<script src="./assets/js/jquery.poptrox.min.js"></script>
 			<script src="./assets/js/browser.min.js"></script>
